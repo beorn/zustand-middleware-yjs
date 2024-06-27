@@ -13,7 +13,8 @@ through special hooks.
 Because this solution is simply a middleware, it can also work anywhere Zustand
 can be used. The vanilla Zustand `create()` function handles middleware exactly
 the same as the React version. And not only that, but it can be composed with
-other middleware, such as Immer or Redux!
+other middleware, such as Redux!
+([Immer doesn't work](https://github.com/joebobmiles/zustand-middleware-yjs/issues/53))
 
 ## Example
 
@@ -80,7 +81,7 @@ render(
     if the library is able to support Yjs protocols. This means that, for now,
     support for the awareness protocol is not planned.
       * This does not mean you cannot use awareness in your projects - see the
-        sister project [y-react](joebobmiles/y-react) for an example of using
+        sister project [y-react](https://github.com/joebobmiles/y-react) for an example of using
         awareness without the middleware.
 
 # License
