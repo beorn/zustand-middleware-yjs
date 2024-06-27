@@ -5,7 +5,8 @@ with modern state management libraries in React. This middleware for Zustand
 solves that problem by allowing a Zustand store to be turned into a CRDT, with
 the store's state replicated to all peers.
 
-This differs from the other Yjs and Zustand solution, `zustand-yjs` by allowing
+This differs from the other Yjs and Zustand solution,
+[`zustand-yjs`](https://github.com/tandem-pt/zustand-yjs), by allowing
 any Zustand store be turned into a CRDT. This contrasts with `zustand-yjs`'s
 solution, which uses a Zustand store to collect shared types and access them
 through special hooks.
